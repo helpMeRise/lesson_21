@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Урок 20</title>
+  <title>Урок 21</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/slick.css">
@@ -109,7 +109,7 @@
         </div>
       </div>
     </section>
-  </div>
+  
 
   <!-- Блок offer -->
   <section class="section offer">
@@ -155,10 +155,16 @@
 
   <!-- Блок портфолио со слайдером -->
   <section class="section portfolio">
+
+    <!--Контейнер-->
     <div class="container">
+
+      <!--Заголовок блока портфолио-->
       <h2 class="section-title portfolio__title"><span class="portfolio__text">Работая с 2007 года </span>
         <span class="portfolio__text">мы сделали более 500 ремонтов в квартирах и домах</span>
       </h2>
+
+      <!-- Слайдер -->
       <div class="slider portfolio__slider">
         <div class="slider__item wow fadeInLeft" data-wow-delay="0.3s">
           <img src="img/portfolio/slider-picture-1.png" alt="">
@@ -327,6 +333,75 @@
   </div>
   </section>
 
+<!--Блок с опросом-->
+<section class="section brif">
+
+  <!--Контейнер-->
+  <div class="container">
+
+    <!--Обертка-->
+    <div class="brif-block">
+
+      <!--Вопросы-->
+      <div class="brif__interview">
+
+        <!--Заголовок-->
+        <h2 class="section-title interview__title">
+            Мы можем озвучить Вам примерную стоимость работы и материалов по телефону
+        </h2>
+
+        <!--Подзаголовок-->
+        <span class="section-subtitle interview__subtitle">
+            Для этого нужно ответить на 4 вопроса:
+        </span>
+
+        <!--Список вопросов-->
+        <ul class="interview-list">
+          <li class="interview-list__item">
+            <span class="interview-list__number">1.</span>
+            <span class="interview-list__text">Какова площадь помещения?</span>
+          </li>
+          <li class="interview-list__item">
+            <span class="interview-list__number">2.</span>
+            <span class="interview-list__text">У Вас новостройка или вторичное жилье?</span>
+          </li>
+          <li class="interview-list__item">
+            <span class="interview-list__number">3.</span>
+            <span class="interview-list__text">Где находится помещение, в котором будет производиться ремонт?</span>
+          </li>
+          <li class="interview-list__item">
+            <span class="interview-list__number">4.</span>
+            <span class="interview-list__text">Назначение помещения?</span>
+          </li>
+        </ul>
+      </div>
+
+      <!--Форма-->
+      <div class="brif__form">
+        <!--Заголовок формы-->
+        <h2 class="section-title form__title">
+            Оставьте заявку на бесплатный расчет ремонта по телефону
+        </h2>
+
+        <!--Подзаголовок формы-->
+        <span class="section-subtitle from__subtitle">Для этого заполните форму ниже</span>
+
+        <!--Поля для ввода-->
+
+        <input type="text" class="input form_input" placeholder="Ваше имя">
+        <input type="tel" class="input form_input phone" placeholder="Ваш телефон">
+
+        <!--Кнопка формы-->
+        <button class="button form__button">Рассчитать стоимость</button>
+
+        <!--Доп. информация фрмы-->
+        <span class="form__description">Мы перезвоним Вам в течение 60 секунд</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
 
   <!-- Ссылка для кнопка наверх -->
   <a href="#" class="scroll"></a>
